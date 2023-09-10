@@ -1,6 +1,7 @@
 # SwiftLintRule
 
-Default 룰
+## Default Rule
+````
 blanket_disable_command: Swiftlint:disable 명령은 파일이 끝나기 전에 다시 활성화 규칙
 block_based_kvo: Swift 3.2 이상을 사용할 때 키 경로가 포함된 새로운 블록 기반 KVO API를 선호 규칙
 class_delegate_protocol: 위임 프로토콜은 약하게 참조될 수 있도록 클래스 전용 규칙
@@ -94,3 +95,4 @@ vertical_whitespace: Vertical 빈줄 한줄 제한 규칙
 void_function_in_ternary: Void 함수를 호출하기 위해 삼항을 사용하는 것 지양 규칙
 void_return: Void Return 지양 규칙
 xctfail_message: XCTFail 호출에는 어설션에 대한 설명이 포함 지향 규칙
+````
